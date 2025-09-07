@@ -1,0 +1,32 @@
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #4b0082; /* changed background color to purple */
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+    header { background: #3a006e; padding: 15px 0; position: sticky; top: 0; z-index: 100; }
+    .nav { display: flex; justify-content: space-between; align-items: center; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: #0ea5ff; }
+    .logo { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+    nav ul { display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; }
+    nav a { color: #e5e7eb; text-decoration: none; font-weight: 500; }
+    nav a:hover, .cta { color: #fff; background: #0ea5ff; padding: 6px 12px; border-radius: 20px; }
+    .hero { padding: 60px 0; display: flex; align-items: center; }
+    .hero-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+    h1 { font-size: 1.8rem; color: #fff; }
+    .sub { color: #d1c4e9; }
+    .quick { display: grid; gap: 10px; margin-top: 20px; }
+    .card { background: #2e004f; padding: 20px; border-radius: 12px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+    .chip { background: #5a189a; padding: 6px 12px; border-radius: 16px; font-size: 0.9rem; }
+    .badge { background: #0ea5ff; color: #fff; }
+    .section-title { font-size: 1.5rem; margin: 40px 0 20px; color: #fff; }
+    .dot { display: inline-block; width: 10px; height: 10px; background: #0ea5ff; border-radius: 50%; margin-right: 8px; }
+    .timeline { display: grid; gap: 20px; }
+    .project { background: #2e004f; padding: 20px; border-radius: 12px; }
+    footer { text-align: center; padding: 20px; background: #3a006e; color: #d1c4e9; margin-top: 40px; }
+    .input { width: 100%; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.12); color: #fff; border-radius: 10px; padding: 10px 12px; outline: none; }
+    .input:focus { border-color: rgba(14,165,255,.6); box-shadow: 0 0 0 3px rgba(14,165,255,.15); }
